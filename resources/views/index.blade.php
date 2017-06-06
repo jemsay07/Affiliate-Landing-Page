@@ -1,0 +1,18 @@
+@extends('layouts.master')
+
+@section('content')
+
+@include('layouts.carousel')<!-- Mainly Sidebar -->
+
+	<div class="container col-md-pad">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis ullamcorper nulla. Proin sed tristique elit, eget vulputate dolor. Integer volutpat eleifend tellus, nec dapibus ligula vestibulum in. Vestibulum commodo eget sapien nec ultrices. Fusce bibendum euismod tincidunt. Nunc nec ex vestibulum, maximus nulla vel, pharetra dui. Ut ut mi vel est ornare suscipit ac non magna. Curabitur ut lacus turpis. Proin in tempus dolor. Curabitur facilisis tellus vitae nisl finibus, sit amet dictum urna venenatis. Nam ut tempor lectus. Phasellus lorem metus, viverra et ante quis, accumsan cursus nisi.</p>
+
+		<p>Nunc nec hendrerit enim, vitae maximus lectus. Ut consectetur tristique hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id est arcu. Praesent viverra quis nisl consectetur venenatis. Curabitur risus nunc, ultrices vitae metus eu, fringilla pharetra erat. Morbi dictum purus risus, in ullamcorper mauris viverra vel. In molestie vehicula quam at cursus. Sed pulvinar faucibus ligula nec tincidunt. Praesent quis tortor sed metus efficitur venenatis. Maecenas dapibus rutrum enim, at aliquet velit aliquam et. Sed aliquam ligula vel aliquet vehicula.</p>
+
+		<p>Vestibulum vulputate eu odio at viverra. Ut nec elit eu mauris euismod elementum. Nunc tempus mi vitae fermentum imperdiet. Morbi semper est ut congue luctus. Nulla facilisi. In nec ligula bibendum, ultrices arcu sit amet, hendrerit augue. Suspendisse dignissim ornare placerat. Suspendisse at urna erat. Fusce ac quam non tortor tristique tincidunt scelerisque at arcu. Proin neque justo, posuere eu magna vitae, facilisis dictum urna. Praesent pulvinar erat a ultrices laoreet. Curabitur accumsan elit eget dapibus condimentum. Proin condimentum urna augue, ac ultricies massa molestie ut. Proin cursus pulvinar est at rhoncus.</p>
+
+		<p>Mauris quis sagittis velit. Integer ullamcorper mauris quis pretium sagittis. Fusce non ullamcorper elit, vel maximus leo. Nunc molestie vel justo ut gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus arcu neque, ornare vel congue nec, sollicitudin varius leo. Integer et magna vel leo porta accumsan. Donec mauris magna, mollis in magna a, suscipit sodales erat. Sed eu tellus bibendum, pellentesque felis quis, eleifend massa. Nam gravida libero turpis, non dignissim arcu maximus vitae. Aliquam id laoreet odio. Nulla elementum urna interdum nibh bibendum posuere. Ut suscipit lacus id consectetur mollis.</p>
+
+		<p>Sed vehicula tempor laoreet. Fusce rutrum posuere augue, pharetra mollis lacus. Cras varius, nibh non volutpat semper, magna ligula placerat nisi, et semper nisl nulla quis tortor. Sed ligula sem, imperdiet sed vestibulum id, dictum sit amet orci. Aliquam tristique, orci non fringilla dictum, sapien ante consequat libero, quis pulvinar lacus urna a metus. Donec ultrices blandit augue, vel pharetra velit mattis et. Vestibulum luctus laoreet tellus non pulvinar. Cras eu ipsum semper leo luctus fringilla eu ac sapien. Morbi rhoncus urna pulvinar sem convallis iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut et velit maximus, elementum sem ac, feugiat nisi. Sed vel dui et lacus tempus commodo.</p>
+	</div>
+@endsection()

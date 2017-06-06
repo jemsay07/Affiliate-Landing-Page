@@ -1,0 +1,136 @@
+/*Default*/
+.col-lg-pad{
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+.col-md-pad{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.col-sm-pad{
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+
+/*Branding*/
+.aff-QQ288{
+	margin: 0;
+}
+
+/*Header*/
+.navbar.navbar-custom{
+	border: 0 transparent;
+	border-radius: 0;
+}
+.navbar-custom{
+	margin-bottom: 0;
+}
+
+/*Top Navigation*/
+#topNavbar{
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+		-moz-box-shadow: 0 8px 6px -6px #999;
+			box-shadow: 0 8px 6px -6px #999;
+	margin: 0;
+	padding: 0;
+}
+
+#topNavbar .dropdown-menu{
+	min-width: 90px;
+}
+#topNavbar .dropdown-menu>li>a{
+	padding: 3px 12px;
+}
+#topNavbar .dropdown-menu>li,
+#topNavbar .dropdown-menu>li>a>i.flag{
+	display: inline-block;
+}
+.aff-QQ288 #topNavbar .dropdown-menu>li>a:hover{
+	background-color: #2e6877;
+}
+.aff-QQ288 .dropdown-menu>.active>a,
+.aff-QQ288 .dropdown-menu>.active>a:hover, 
+.aff-QQ288 .dropdown-menu>.active>a:focus{
+	background-color: #2e6877;
+}
+
+
+/*Header Navigation*/
+.navbar-custom > #headerNavbar{
+	background-color: #ececec;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	min-height: 60px;
+}
+.navbar-custom #headerNavbar .navbar-brand{
+	height: auto;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+/*Main Navigation*/
+.aff-QQ288 #mainNavbar{
+	background-color: #00859b;
+}
+.aff-QQ288 #mainNavbar .navbar-nav>li>a{
+	color: #fff;
+}
+.aff-QQ288 #mainNavbar .navbar-nav>li>a:hover,
+.aff-QQ288 #mainNavbar .navbar-nav>li>a:focus{
+	background-color: #2e6877;
+	color: #fff;
+}
+
+/*Carousel*/
+#wrapper .carousel{
+	min-height: 405px;
+}
+
+
+/*Content*/
+
+
+/*Footer*/
+.footer-socket{
+    background-color: #2b2a2a;
+    padding: 25px 0;
+    min-height: 150px;	
+}
+.footer-copyright{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0 10px;	
+}
+
+/*Media*/
+
+@media (min-width: 768px){
+	/*Top Navigation*/
+	#topNavbar .navbar-nav>li>a{
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+	/*Main Navigation*/
+	.navbar-custom > #mainNavbar .navbar-nav>li>a{
+		padding-bottom: 12px;
+		padding-top: 12px;
+	}
+}
+
+@media ( max-width: 768px) {
+	#wrapper .carousel{
+		min-height: auto;
+	}
+	#topNavbar .navbar-nav{
+		margin: 0 -15px;
+	}
+	#topNavbar .navbar-nav>li>a{
+		text-align: right;
+	}
+	#topNavbar .dropdown-menu{
+		text-align: center;
+	}
+}
